@@ -1,0 +1,297 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+    ; */
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-size: auto;
+}
+
+/* Navbar */
+
+nav {
+    width: 100%;
+}
+
+nav .menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 25px;
+    border-bottom: 1px solid rgba(109, 109, 109, 0.35);
+}
+
+.logo {
+    color: black;
+    font-size: 30px;
+}
+
+span {
+    color: #286F6C;
+    font-size: 30px;
+}
+
+.menu ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.menu ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    color: #286F6C;
+    transition: .3s;
+}
+
+.menu h4 {
+    border: none;
+}
+
+/* home / header */
+
+header {
+    width: 100%;
+}
+
+.container-home {
+    display: flex;
+    flex-direction: column;
+    margin-left: 250px;
+}
+
+.container-home>#greet {
+    margin: 150px 80px 10px 70px;
+    text-align: left;
+    width: 400px;
+    height: 150px;
+    font-size: 30px;
+}
+
+#greet h1 span {
+    font-size: 50px;
+}
+
+.container-home>#intro {
+    margin: 10px 80px 10px 70px;
+    text-align: left;
+    width: 400px;
+    height: 110px;
+    font-size: 20px;
+}
+
+.container-home>h1 {
+    font-size: 100px;
+}
+
+.frame {
+    position: absolute;
+    display: inline-block;
+    height: 400px;
+    padding: 15px;
+    left: 870px;
+    top: 190px;
+}
+
+img {
+    border: solid 2px;
+    border-bottom-color: #ffe;
+    border-left-color: #eed;
+    border-right-color: #eed;
+    border-top-color: #ccb;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+/* about me */
+
+.container-about {
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 500px;
+}
+
+#kotak {
+    width: 50%;
+    height: 100%;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+#kotak>.container {
+    flex-direction: column;
+    width: 100%;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+#kotak>.container>div {
+    display: flex;
+    text-align: right;
+    flex-direction: column;
+    height: 250px;
+}
+
+.container p {
+    padding-top: 1px;
+    text-align: right;
+    font-size: 16px;
+    text-indent: 50px;
+    line-height: 1.8;
+}
+
+.container ul li {
+    font-size: 18px;
+    text-indent: 50px;
+    line-height: 1.8;
+    list-style-type: none;
+    color: #286F6C;
+}
+
+.container-about>#div-3 {
+    margin-left: 50px;
+}
+
+/* skill page */
+
+.container-skill {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    height: 500px;
+    margin: auto;
+    margin-top: 90px;
+}
+
+.container-skill>#what-i-do {
+    height: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.container-skill>#what-i-do>h4 {
+    padding: 10px;
+    font-size: 20px;
+    text-align: left;
+}
+
+#skill {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+#skill>div {
+    margin: 10px;
+    width: 50%;
+}
+
+.figma {
+    font-size: 20px;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+.figma h4 {
+    color: #286F6C;
+    padding-bottom: 10px;
+}
+
+.adobe {
+    font-size: 20px;
+    padding: 10px;
+    padding-top: 50px;
+}
+
+.adobe h4 {
+    color: #286F6C;
+    padding-bottom: 10px;
+}
+
+.web {
+    font-size: 20px;
+    padding: 10px;
+    padding-top: 120px;
+}
+
+.web h4 {
+    color: #286F6C;
+    padding-bottom: 10px;
+}
+
+/* article */
+
+.artikel {
+    margin: 90px;
+    /* background-color: red; */
+    height: 30px;
+}
+
+.artikel h4 {
+    text-align: center;
+    font-size: 20px;
+    color: #286F6C;
+}
+
+.artikel h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.artikel p {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.isi-artikel {
+    /* background-color: red; */
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.isi-artikel h1 {
+    padding: 10px;
+}
+
+.isi-artikel p {
+    text-align: justify;
+    padding-top: 5px;
+}
+
+.button {
+    color: black;
+    font-size: 15px;
+    align-items: center;
+    text-decoration: none;
+    /* place-items: center; */
+    margin-left: 46%;
+}
+
+.button:hover {
+    color: #286F6C;
+    transition: .3s;
+}
+
+.footer {
+    width: 100%;
+    position: fixed;
+    background: #286F6C;
+    padding: 5px;
+    color: #fff;
+    bottom: 0;
+    text-align: center;
+}
