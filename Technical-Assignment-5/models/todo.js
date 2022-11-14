@@ -10,7 +10,7 @@ const todoSchema = new Schema({
     password: String,
 })
 
-const todo = mongoose.Aggregate.model("todo", todoSchema)
+const todo = mongoose.model("todo", todoSchema)
 
 module.exports = todo
 

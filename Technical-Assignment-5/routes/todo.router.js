@@ -9,9 +9,8 @@ const {
     updateTodoById,
 } = require('../controller/todo.controller')
 
-router.get("/", getAllTodo);
-router.get("/:id", getTodoById);
-router.post("/", addTodo);
+router.get("/getAllTodo", getAllTodo);
+router.post("/addTodo", addTodo);
 router.delete("/:id", deleteTodo);
 router.put("/:id", updateTodoById);
 
